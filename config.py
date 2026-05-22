@@ -1,0 +1,18 @@
+# config.py
+BOT_TOKEN = "YOUR_BOT_TOKEN"
+SPREADSHEET_ID = "YOUR_SPREADSHEET_ID"
+SERVICE_ACCOUNT_FILE = "service_account.json"
+GROUP_ID = None  # or your group chat ID
+ADMIN_IDS = [123456789]  # list of admin user IDs
+
+# Google Sheets
+SHEET_DASHBOARD = "DASHBOARD"
+SHEET_SIPS = "SIPS"
+SHEET_DIRECTORY = "DIRECTORY"
+SHEET_HISTORY = "HISTORY"
+
+EMPLOYEE_FREE_VALUE = "FREE"
+STATUS_WORK = "Ворк"
+STATUS_NOT_WORK = "Не ворк"
+
+HISTORY_DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S"
