@@ -2,8 +2,8 @@
 BOT_TOKEN = "YOUR_BOT_TOKEN"
 SPREADSHEET_ID = "YOUR_SPREADSHEET_ID"
 SERVICE_ACCOUNT_FILE = "service_account.json"
-GROUP_ID = None  # or your group chat ID
-ADMIN_IDS = [123456789]  # list of admin user IDs
+GROUP_ID = None
+ADMIN_IDS = [123456789]
 
 # Google Sheets
 SHEET_DASHBOARD = "DASHBOARD"
@@ -16,3 +16,6 @@ STATUS_WORK = "Ворк"
 STATUS_NOT_WORK = "Не ворк"
 
 HISTORY_DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S"
+
+# Cache TTL in seconds
+SHEETS_CACHE_TTL_SECONDS = 30
